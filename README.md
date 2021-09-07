@@ -14,17 +14,7 @@ pip install finance_econometrics
 from finance_econometrics import *
 
 
-
-
-
-
-
-# TO DO
-# https://www.youtube.com/watch?v=JkeNVaiUq_c&t=577s
-
-# setup.cfg -> url = https://github.com/diserdyuk/fin_functions
-
-
+                     
 
 
 
