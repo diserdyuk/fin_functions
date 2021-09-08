@@ -14,19 +14,12 @@ pip install finance_econometrics
 from finance_econometrics import *
 
 
-                     
-
-
-
-
-all_functions
-
 
 get_list_tickers
 
 передается путь к директории с файлами (AA.csv, AAPL.csv)
 > import os
-> DIRECTORY = '/home/ds/us_data/us_all_equities_updated/'
+> DIRECTORY = '/home/user/data/us_equities/'
 > TICKERS = get_data(DIRECTORY)
 < ['AA', 'AAPL']
 
@@ -34,7 +27,7 @@ get_list_tickers
 profit_factor
 
 в функцию передается Series со всеми сделками (не nav)
-> profit_fact = round(profit_factor(df_all_deals['Result_deal']), 2)
+> profit_fact = round(profit_factor(df_all_deals['result_deal']), 2)
 < 5.30
 
 
